@@ -1,0 +1,2 @@
+#! /bin/bash
+echo "the corrent directory is : {$PWD}"
