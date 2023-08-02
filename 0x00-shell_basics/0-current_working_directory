@@ -1,2 +1,2 @@
 #!/bin/bash
-echo 'the current directory is : {$(readlink -f $(PWD))}'
+echo 'the current directory is : $(readlink -f $(pwd))'
