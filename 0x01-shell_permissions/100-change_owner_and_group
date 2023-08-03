@@ -1,3 +1,2 @@
 #!/bin/bash
-su vincent
-chgrp staff
+sudo find . -type f -exec chown vincent:staff {} + 
