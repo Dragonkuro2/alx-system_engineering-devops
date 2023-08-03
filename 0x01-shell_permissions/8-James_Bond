@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod a-751 +006 hello
+chmod a-751,u+rwx hello
