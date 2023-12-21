@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# this script writes "Best School" 10 times using until loop.
+n=0
+text="Best School"
+until [ $n -eq 10 ]; do
+	echo "$text"
+	((n=n+1))
+done
