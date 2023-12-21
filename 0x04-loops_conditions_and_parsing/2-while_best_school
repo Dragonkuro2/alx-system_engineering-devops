@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# this script  write "Best School" 10 times using while loop.
+text="Best School"
+n=0
+while [ $n -lt 10 ]; do
+	echo "$text"
+	((n=n+1))
+done
