@@ -1,0 +1,1 @@
+this is the repo of the project '0x05-processes_and_signals' you'll find here all the tasks that I did from that project. this project is about the processes in linux as the first steps on the devops.
