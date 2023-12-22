@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Bash scripot that displays To infinity and beyond indefinitely.
+# the only way to stop this program is by killing it (Ctrl+C).
+while true; do
+	echo "To infinity and beyond"
+	sleep 2
+done
