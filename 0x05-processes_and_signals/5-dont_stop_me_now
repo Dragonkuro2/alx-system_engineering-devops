@@ -2,4 +2,4 @@
 # This program is killing the process of the previous one
 # named '4-to_infinity_and_beyond'
 id=$(pgrep "bash ./4-to_infinity_and_beyond" -f)
-kill $id
+kill "$id"
