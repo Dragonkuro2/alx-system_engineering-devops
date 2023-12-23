@@ -2,7 +2,7 @@
 # Bash (init) script 101-manage_my_process that manages manage_my_process.
 
 if [ "$1" == "start" ]; then
-	echo "$$" | sudo tee /var/run/my_process.pid
+	sudo bash -c "echo $$ > /var/run/my_process.pid"
 	./manage_my_process &
 	echo "manage_my_process started"
 
