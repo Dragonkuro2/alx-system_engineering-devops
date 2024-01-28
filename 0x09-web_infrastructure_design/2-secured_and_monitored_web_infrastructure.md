@@ -1,4 +1,4 @@
-<img src"./2-secured_and_monitored_web_infrastructure.png" alt="image not found">
+<img src="./2-secured_and_monitored_web_infrastructure.png" alt="image not found">
 ## Description
 
 This is a 3-server web infrastructure that is secured, monitored, and serves encrypted traffic.
