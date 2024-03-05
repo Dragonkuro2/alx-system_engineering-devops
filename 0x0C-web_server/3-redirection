@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# redirection 301 moved permanetly
+
+# updating the packages and and installing nginx
+sudo apt-get update
+sudo apt-get install -y nginx
+
+# creating index.html file
+echo "Hello World!" | sudo tee /var/www/index.html
+
+# Performing a 301 redirection
+string_for_replacement="server_name _;\n\trewrite ^\/redirect_me https:\/\/github.com\/Dragonkuro2 permanent;"
+sudo sed -i "s/server_name _;/$string_for_replacement/" /etc/nginx/sites-enabled/default
+
+# restaring nginx
+sudo service nginx restart
