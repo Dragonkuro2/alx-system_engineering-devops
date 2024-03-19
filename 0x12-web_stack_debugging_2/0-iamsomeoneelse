@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+sudo su $1
+whoami
+sudo
